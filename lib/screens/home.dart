@@ -13,7 +13,7 @@ class Home extends State<HomeScreen> {
   Widget build(BuildContext context) {
     AppBar appBar = new AppBar(
       title: const Text('Mis contactos'),
-      backgroundColor: Colors.blueAccent[400],
+      backgroundColor: Theme.of(context).primaryColor,
     );
 
     _createCard(SonDetails sonDetails) {
@@ -120,9 +120,9 @@ class Home extends State<HomeScreen> {
           }),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          Navigator.of(context).pushNamed('/form');
+          Navigator.of(context).pushNamed('/register');
         },
-        backgroundColor: Colors.blueAccent[400],
+        backgroundColor: Theme.of(context).primaryColor,
         child: Icon(Icons.add),
       ),
     );

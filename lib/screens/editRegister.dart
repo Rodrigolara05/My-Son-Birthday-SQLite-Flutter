@@ -85,7 +85,7 @@ class EditRegister extends State<EditRegisterScreen> {
 
     AppBar appBar = new AppBar(
       title: const Text('Editar registro'),
-      backgroundColor: Colors.blueAccent[400],
+      backgroundColor: Theme.of(context).primaryColor,
     );
 
     TextFormField nombreInput = new TextFormField(
@@ -108,7 +108,7 @@ class EditRegister extends State<EditRegisterScreen> {
     FlatButton flatButton = new FlatButton(
         child: new Text(
           labelDate,
-          style: TextStyle(color: Colors.blueAccent[400]),
+          style: TextStyle(color: Theme.of(context).primaryColor),
         ),
         onPressed: () {
           showDatePicker(
@@ -143,7 +143,7 @@ class EditRegister extends State<EditRegisterScreen> {
       RaisedButton raisedButton = new RaisedButton(
           child: Text(
             "Actualizar",
-            style: TextStyle(color: Colors.blueAccent[400]),
+            style: TextStyle(color: Theme.of(context).primaryColor),
           ),
           color: Colors.white,
           onPressed: () {

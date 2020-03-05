@@ -67,7 +67,7 @@ class NewRegister extends State<NewRegisterScreen> {
 
     AppBar appBar = new AppBar(
       title: const Text('Nuevo registro'),
-      backgroundColor: Colors.blueAccent[400],
+      backgroundColor: Theme.of(context).primaryColor,
     );
 
     TextFormField nombreInput = new TextFormField(
@@ -90,7 +90,7 @@ class NewRegister extends State<NewRegisterScreen> {
     FlatButton flatButton = new FlatButton(
         child: new Text(
           labelDate,
-          style: TextStyle(color: Colors.blueAccent[400]),
+          style: TextStyle(color: Theme.of(context).primaryColor),
         ),
         onPressed: () {
           showDatePicker(
@@ -125,7 +125,7 @@ class NewRegister extends State<NewRegisterScreen> {
       RaisedButton raisedButton = new RaisedButton(
           child: Text(
             "Guardar",
-            style: TextStyle(color: Colors.blueAccent[400]),
+            style: TextStyle(color: Theme.of(context).primaryColor),
           ),
           color: Colors.white,
           onPressed: () {
