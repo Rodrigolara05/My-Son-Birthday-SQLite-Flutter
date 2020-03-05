@@ -7,7 +7,11 @@ Esta aplicación fue creada con el motivo de explicar el funcionamiento de un CR
 
 ## Imagenes 📌
 
-<img src="https://github.com/Rodrigolara05/My-Son-Birthday-SQLite-Flutter/blob/master/README-images/Home.png" width="200" /> <img src="https://github.com/Rodrigolara05/My-Son-Birthday-SQLite-Flutter/blob/master/README-images/Register.png" width="200" /> <img src="https://github.com/Rodrigolara05/My-Son-Birthday-SQLite-Flutter/blob/master/README-images/Edit.png" width="200" />
+<p align="center">
+<img src="https://github.com/Rodrigolara05/My-Son-Birthday-SQLite-Flutter/blob/master/README-images/Home.png" width="200" />
+<img src="https://github.com/Rodrigolara05/My-Son-Birthday-SQLite-Flutter/blob/master/README-images/Register.png" width="200" />
+<img src="https://github.com/Rodrigolara05/My-Son-Birthday-SQLite-Flutter/blob/master/README-images/Edit.png" width="200" />
+</p>
 
 ## SDK 📌
 
