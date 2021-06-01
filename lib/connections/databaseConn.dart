@@ -28,6 +28,7 @@ class SonDatabase {
   }
   
   Future<List<SonDetails>> getAll() async{
+    print("Listar");
     List<Map<String,dynamic>> results = await db.query('sonDetailsDB');
     return results.map((map) => SonDetails.fromMap(map)).toList();
   }

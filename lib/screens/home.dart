@@ -6,9 +6,12 @@ import 'editRegister.dart';
 class HomeScreen extends StatefulWidget {
   @override
   Home createState() => Home();
+
 }
 
 class Home extends State<HomeScreen> {
+
+
   @override
   Widget build(BuildContext context) {
     AppBar appBar = new AppBar(
